@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    background: $primary;
+    button{
+        background: $secondary;
+        &:hover{
+            background: yellow;
+        }
+        &::after{
+            content: "Teste";
+        }
+    }
+    p{
+        color: black;
+    }
+    h1{
+        color: purple;
+    }
+}

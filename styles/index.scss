@@ -1,30 +1,5 @@
-$primary: rgb(0, 255, 34);
-$secondary: red;
-
-
-header{
-    display: flex;
-    background: $primary;
-    button{
-        background: $secondary;
-        &:hover{
-            background: yellow;
-        }
-        &::after{
-            content: "Teste";
-        }
-    }
-    p{
-        color: black;
-    }
-    h1{
-        color: purple;
-    }
-}
-
-header button{
-    background: $primary;
-}
+@import './variaveis';
+@import './header';
 
 .contato{
     background: $primary;
