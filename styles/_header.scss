@@ -1,6 +1,13 @@
-header{
+@mixin flexCenter($direction, $bg) {
     display: flex;
-    background: $primary;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $bg;
+}
+
+header{
+    @include flexCenter(row, rgb(42, 42, 160));
     button{
         background: $secondary;
         &:hover{

@@ -2,5 +2,6 @@
 @import './header';
 
 .contato{
-    background: $primary;
+    @include flexCenter(column, rgb(218, 218, 0));
+    border-top: 1px solid black;
 }
