@@ -1,4 +1,14 @@
+$primary: rgb(0, 255, 34);
+
 header{
     display: flex;
-    background: blue;
+    background: $primary;
+}
+
+header button{
+    background: $primary;
+}
+
+.contato{
+    background: $primary;
 }

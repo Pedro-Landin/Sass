@@ -1,4 +1,12 @@
 header {
   display: flex;
-  background: blue;
+  background: rgb(0, 255, 34);
+}
+
+header button {
+  background: rgb(0, 255, 34);
+}
+
+.contato {
+  background: rgb(0, 255, 34);
 }/*# sourceMappingURL=index.css.map */
