@@ -2,6 +2,21 @@ header {
   display: flex;
   background: rgb(0, 255, 34);
 }
+header button {
+  background: red;
+}
+header button:hover {
+  background: yellow;
+}
+header button::after {
+  content: "Teste";
+}
+header p {
+  color: black;
+}
+header h1 {
+  color: purple;
+}
 
 header button {
   background: rgb(0, 255, 34);
