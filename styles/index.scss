@@ -3,5 +3,6 @@
 
 .contato{
     @include flexCenter(column, rgb(218, 218, 0));
+    @extend header;
     border-top: 1px solid black;
 }
